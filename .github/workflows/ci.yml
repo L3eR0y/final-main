@@ -41,7 +41,7 @@ jobs:
 
       - name: Metadata(tags, labels) for Docker
         id: meta
-        uses: docker/metadata-actions@v6.2.0
+        uses: docker/metadata-action@v6.2.0
         with:
           images: <Docker ID>/final-main
 
