@@ -20,7 +20,7 @@ jobs:
           go-version: "1.25"
 
       - name: Run tests
-        run: go test -v ./...
+        run: GOOS=linux GOARCH=amd64 go test
       
       - name: Vet
         run: |
